@@ -37,6 +37,6 @@ botaoSimular.addEventListener('click' , () => {
     }
 
 
-divResultados.innerHTML = `A quantidade gerada de cada número, foi: <br><br> NÚMERO 1 = ${cont1} <br> NÚMERO 2 = ${cont2} <br> NÚMERO 3 = ${cont3} <br> NÚMERO 4 = ${cont4} <br> NÚMERO 5 = ${cont5} <br> NÚMERO 6 = ${cont6} `;
+divResultados.innerHTML = `A quantidade gerada de cada número foi: <br><br> NÚMERO 1 = ${cont1} <br> NÚMERO 2 = ${cont2} <br> NÚMERO 3 = ${cont3} <br> NÚMERO 4 = ${cont4} <br> NÚMERO 5 = ${cont5} <br> NÚMERO 6 = ${cont6} `;
 
 })

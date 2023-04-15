@@ -12,7 +12,7 @@ celsiusInput.addEventListener('keyup', () => {
     if (isNaN(valorCelsius)) {
         fahrenheitSpan.textContent = '-';
         kelvinSpan.textContent = '-';
-        mensagemSpan.textContent = 'Digite um valor válido.';
+        mensagemSpan.textContent = 'DIGITE UM VALOR VÁLIDO';
     }
     else{
         const valorFahrenheit = converterFahrenheit(valorCelsius);

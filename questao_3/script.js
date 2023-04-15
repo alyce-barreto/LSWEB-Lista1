@@ -15,6 +15,6 @@ botaoCalcular.addEventListener('click', () => {
 
     const melhorCombustivel = calcularMelhorCombusivel(valorEtanol, valorGasolina);
     const resultado = melhorCombustivel === 1 ? "Etanol" : "Gasolina";
-    resultadoDiv.textContent = `O melhor combustível é: ${resultado}.`;
+    resultadoDiv.textContent = `O melhor combustível para essa cotação é: ${resultado}.`;
 
 })
